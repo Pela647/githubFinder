@@ -15,7 +15,7 @@ searchUser.addEventListener('keyup', (e) => {
           // alert('user not found');
           ui.showAlert('user not found', 'alert alert-danger');
         } else {
-          console.log(data);
+
           ui.showProfile(data.profile);
           ui.showRepos(data.repos);
         }
